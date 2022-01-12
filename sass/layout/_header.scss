@@ -1,63 +1,63 @@
 .page-header {
   border-bottom: 1px solid #ececec;
-}
 
-.page-header__section {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: var(--title-text-color);
-}
+  &__section {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--title-text-color);
+  }
 
-.page-header__logo {
-  margin-right: 93px;
+  &__logo {
+    margin-right: 93px;
 
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: black;
-}
-.page-header__logo-color {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: var(--navigation-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: black;
+  }
+  &__logo-color {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--navigation-color);
+  }
 }
 
 .contacts {
   display: flex;
   margin-left: auto;
-}
 
-.contacts__link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  display: flex;
-  align-items: center;
+  &__link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
 
-  color: #757575;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
 
-.contacts__item:not(:last-child) {
-  margin-right: 50px;
-}
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
 
-.contacs__icon {
-  fill: currentColor;
-  margin-right: 10px;
-}
+  &__link:hover,
+  &__link:focus {
+    color: var(--navigation-color);
+  }
 
-.contacts__link:hover,
-.contacts__link:focus {
-  color: var(--navigation-color);
+  .contacs__icon {
+    fill: currentColor;
+    margin-right: 10px;
+  }
 }

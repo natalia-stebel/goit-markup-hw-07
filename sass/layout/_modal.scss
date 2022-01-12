@@ -33,7 +33,7 @@
   padding: 40px;
 }
 
-.modal-close {
+.modal__close {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,12 +50,12 @@
   cursor: pointer;
 }
 
-.modal-close svg {
+.modal__close__icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #000;
 }
-.modal-close:hover svg,
-.modal-close:focus svg {
+.modal__close:hover svg,
+.modal__close:focus svg {
   fill: var(--navigation-color);
 }
 
@@ -71,7 +71,7 @@
   margin-bottom: 12px;
 }
 
-.modal-form {
+.modal__form {
   display: flex;
   flex-direction: column;
 }
