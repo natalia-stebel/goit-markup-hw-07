@@ -37,7 +37,7 @@
     padding: 30px 0;
     text-align: center;
 
-    &__names {
+    .team-box__names {
       margin-bottom: 10px;
 
       font-weight: 500;
@@ -46,11 +46,12 @@
       letter-spacing: 0.03em;
       color: var(--title-text-color);
     }
-    &__names-bottom {
+
+    .team-box__names-bottom {
       margin-bottom: 12px;
     }
 
-    &__possition {
+    .team-box__possition {
       font-weight: 400;
       font-size: 16px;
       line-height: 1.2;
@@ -61,11 +62,6 @@
 
 .team-item-description p {
   margin-bottom: 16px;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .social-links__link {

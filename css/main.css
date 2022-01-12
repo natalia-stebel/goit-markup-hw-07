@@ -48,6 +48,12 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* * <!--HERO- > */
 .hero__button {
   border-bottom: 4px;
@@ -537,7 +543,7 @@ ul {
   text-align: center;
 }
 
-.team-box__description__names {
+.team-box__description .team-box__names {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -546,11 +552,11 @@ ul {
   color: var(--title-text-color);
 }
 
-.team-box__description__names-bottom {
+.team-box__description .team-box__names-bottom {
   margin-bottom: 12px;
 }
 
-.team-box__description__possition {
+.team-box__description .team-box__possition {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -559,12 +565,6 @@ ul {
 
 .team-item-description p {
   margin-bottom: 16px;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .social-links__link {
